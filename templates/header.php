@@ -68,7 +68,7 @@ echo $rootPath;
             <div class="header_row1">
                 <div class="header_row1_left">
                     <div class="logo">
-                        <a href="<?php echo $rootPath ?>">
+                        <a href="">
                             <img src="<?php echo $rootPath . "/assets/img/logo/logopaddy.png"; ?>" alt="">
                         </a>
                     </div>
@@ -85,13 +85,8 @@ echo $rootPath;
                         <h5 class="name_icon">Hotline</h5>
                         <h5 class="hotline_sdt" style="font-weight: 600;">0347 69 33 33</h5>
                     </div>
-                    <!-- <div class="h">
-                        <div class="name_icon">
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                        <h5>Wishlist</h5>
-                    </div> -->
-                    <a href="/pages/login.php" class="h" id="login_user">
+
+                    <a href="pages/login.php" class="h" id="login_user">
                         <div>
                             <div class="name_icon">
                                 <i class="fa-regular fa-user"></i>
@@ -105,7 +100,7 @@ echo $rootPath;
 
                     <!-- giỏ hàng -->
                     <div class="h" id="cart">
-                        <a href="<?php echo $rootPath . "/pages/cart.php"; ?>">
+                        <a href="#">
                             <div class="name_icon catalog">
                                 <i class="fa-solid fa-cart-shopping"></i>
 
@@ -121,13 +116,13 @@ echo $rootPath;
                         <a href="<?php echo $rootPath; ?>">Trang chủ</a>
                     </li>
                     <li>
-                        <a href="">Liên hệ</a>
+                        <a href="<?php echo $rootPath . "/pages/contact_to_shop_page.php"; ?>">Liên hệ</a>
                     </li>
                     <li>
-                        <a href="">Sản phẩm</a>
+                        <a href="<?php echo $rootPath . "/pages/product_page.php"; ?>">Sản phẩm</a>
                     </li>
                     <li>
-                        <a href="">Thương hiệu</a>
+                        <a href="<?php echo $rootPath . "/pages/brand.php"; ?>">Thương hiệu</a>
                     </li>
                 </ul>
             </div>

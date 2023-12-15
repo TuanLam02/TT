@@ -13,19 +13,19 @@
     <p>Hoả tốc 4h trong nội thành HCM</p>
   </div>
   <div class="vanChuyen">
-    <h6>Miễn Phí Vận Chuyển</h6>
-    <p>Áp dụng cho đơn hàng từ 500K</p>
-    <p>Hoả tốc 4h trong nội thành HCM</p>
+    <h6>Chăm sóc khách hàng 24/24</h6>
+    <p>Liên hệ qua Fanpage hoặc hotline</p>
+    <p>Giải đáp và tư vấn cho thú cưng của bạn</p>
   </div>
   <div class="vanChuyen">
-    <h6>Miễn Phí Vận Chuyển</h6>
-    <p>Áp dụng cho đơn hàng từ 500K</p>
-    <p>Hoả tốc 4h trong nội thành HCM</p>
+    <h6>Sản phẩm chính hãng</h6>
+    <p>Hoàn toàn được ủy quyền 100% từ các thương hiệu lớn</p>
+    <p>Có giấy ủy quyền</p>
   </div>
   <div class="vanChuyen">
-    <h6>Miễn Phí Vận Chuyển</h6>
-    <p>Áp dụng cho đơn hàng từ 500K</p>
-    <p>Hoả tốc 4h trong nội thành HCM</p>
+    <h6>Thanh Toán tiện lợi</h6>
+    <p>Có thể thanh toán COD</p>
+    <p>Có thể thanh toán qua thẻ tín dụng</p>
   </div>
 </div>
 <div class="MuaThucCung">
