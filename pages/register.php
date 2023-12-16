@@ -4,7 +4,7 @@ include '../templates/header.php';
 
 <h6>Trang chủ > Đăng ký </h6>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     fetch('https://vn-public-apis.fpo.vn/provinces/getAll?limit=-1')
         .then(response => response.json())
@@ -55,7 +55,7 @@ include '../templates/header.php';
         fetchWards(event.target.value);
     }
 
-</script>
+</script> -->
 
 <div class="create_admin">
     <h1 class="Title_Admin_create_form">Tạo tài khoản </h1>
@@ -97,7 +97,7 @@ include '../templates/header.php';
             <span class="error_message"></span>
         </div>
         <div style="display: flex; justify-content: space-between; width: 400px;">
-            <div class="form_field">
+            <!-- <div class="form_field">
                 <label for="" class="name_form_field">Tỉnh: </label>
                 <select id="provinces" onchange="getProvinces(event)" class="textfile" name="provinces"
                     style="width: 195px;">
@@ -112,16 +112,28 @@ include '../templates/header.php';
                     <option disabled selected value="">Chọn Huyện</option>
                 </select>
                 <span class="error_message"></span>
+            </div> -->
+            <div class="form_field">
+                <label for="" class="name_form_field">Tỉnh: </label>
+                <input type="diaChi" class="textfile" id="diaChi" name="diaChi" style="width: 195px;" required>
+            </div>
+            <div class="form_field">
+                <label for="" class="name_form_field">Huyện: </label>
+                <input type="diaChi" class="textfile" id="diaChi" name="diaChi" style="width: 195px;" required>
             </div>
         </div>
         <div style="display: flex; justify-content: space-between; width: 400px;">
-            <div class="form_field">
+            <!-- <div class="form_field">
                 <label for="" class="name_form_field">Xã: </label>
                 <select required id="ward" class="textfile" style="width: 195px;">
                     <option value="">Chọn Xã</option>
                 </select>
                 <input hidden type="text" name="maXa" id="maXaInput">
                 <span class="error_message"></span>
+            </div> -->
+            <div class="form_field">
+                <label for="" class="name_form_field">Xã: </label>
+                <input type="diaChi" class="textfile" id="diaChi" name="diaChi" style="width: 195px;" required>
             </div>
             <div class="form_field">
                 <label for="" class="name_form_field">Địa chỉ cụ thể: </label>
