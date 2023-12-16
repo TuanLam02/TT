@@ -1,29 +1,9 @@
 <?php include './templates/header.php';
 ?>
-<div class="banner">
-  <div class="slideshow-container">
-
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="img_nature_wide.jpg" style="width:100%">
-      <div class="text">Caption Text</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <img src="img_snow_wide.jpg" style="width:100%">
-      <div class="text">Caption Two</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="img_mountains_wide.jpg" style="width:100%">
-      <div class="text">Caption Three</div>
-    </div>
-
-  </div>
+<div>
+  <img style="width: 100%; height: auto; margin-top:-50px" src="assets/img/banner/banner1.png" alt="Hình ảnh 1">
 </div>
-<br>
+</div>
 <br>
 <div class="gioithieu">
   <div>
@@ -45,7 +25,7 @@
   </div>
 </div>
 <div class="MuaThucCung">
-  <h6>Mua sắm theo giống thú cưng</h6>
+  <h6 style="text-align:center;">MUA SẮM THEO GIỐNG THÚ CƯNG</h6>
   <div class="img_thucung">
     <img src="assets/img/banner/dog_banner_1370x.png" alt="">
     <img src="assets/img/banner/cat_banner_1370x.png" alt="">
@@ -54,7 +34,7 @@
 <div class="boSuutap">
   <div class="boSuuTap_header">
     <h6></h6>
-    <h6>Bộ Sưu Tập Nổi Bật</h6>
+    <h6>BỘ SƯU TẬP NỔI BẬT</h6>
     <a href="">Xem tất cả</a>
   </div>
   <div class="boSuuTap_body">
@@ -88,7 +68,7 @@
   <div class="boSuutap">
     <div class="boSuuTap_header">
       <h6></h6>
-      <h6>Được boss yêu thích</h6>
+      <h6>ĐƯỢC BOSS YÊU THÍCH</h6>
       <a href="">Xem tất cả</a>
     </div>
     <div class="boSuuTap_body">
@@ -144,7 +124,7 @@
     </div>
     <div class="MuaThucCung">
       <div class="MuaThucCung_header">
-        <h6>1000+ Thương Hiệu Boss Thích</h6>
+        <h6>THƯƠNG HIỆU ĐƯỢC KHÁCH HÀNG ƯA CHUỘNG</h6>
         <a href="">Xem tất cả</a>
       </div>
       <div class='thuongHieu'>
@@ -171,38 +151,6 @@
     </div>
   </div>
 </div>
+<br>
+<br>
 <?php include './templates/footer.php' ?>
-<script src=" https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-  // Lấy các phần tử cần thiết
-  // Lấy các phần tử cần thiết
-  const banner = document.querySelector('.banner');
-  const swiperContainer = banner.querySelector('.swiper-container');
-  const swiperWrapper = swiperContainer.querySelector('.swiper-wrapper');
-  const swiperSlides = swiperWrapper.querySelectorAll('.swiper-slide');
-  const prevButton = swiperContainer.querySelector('.swiper-button-prev');
-  const nextButton = swiperContainer.querySelector('.swiper-button-next');
-
-  // Thiếtlập SwiperJS
-  const swiper = new Swiper(swiperContainer, {
-    loop: true,
-    autoplay: {
-      delay: 2000,
-    },
-  });
-
-  // Xử lý sự kiện click vào nút prev
-  prevButton.addEventListener('click', () => {
-    // Di chuyển đến slide trước đó
-    swiper.slidePrev();
-
-    // Cập nhật trạng thái các slide
-    swiperSlides.forEach((slide) => {
-      if (slide.classList.contains('swiper-slide-active')) {
-        slide.classList.remove('swiper-slide-active');
-      } else if (!slide.classList.contains('swiper-slide-duplicate')) {
-        slide.classList.add('swiper-slide-active');
-      }
-    });
-  });
-</script>

@@ -62,7 +62,7 @@ echo $rootPath;
                     </form>
                     <div class="hotline">
                         <h5 class="name_icon">Hotline</h5>
-                        <h5 class="hotline_sdt" style="font-weight: 600;">0347 69 33 33</h5>
+                        <h5 class="hotline_sdt" style="font-weight: 600;">0347693333</h5>
                     </div>
 
                     <a href="<?php echo $rootPath . "/pages/login.php"; ?>" class="h" id="login_user">

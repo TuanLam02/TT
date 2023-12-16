@@ -93,9 +93,7 @@
                 <button class='button_product' onclick='addToCart(this)'>Thêm vào giỏ
                     hàng
                 </button>
-                <a class='xem_icon'>
-                    <i class='fa-regular fa-eye'></i>
-                </a>
+
             </div>
 
 
@@ -118,9 +116,7 @@
                 <button class='button_product' onclick='addToCart(this)'>Thêm vào giỏ
                     hàng
                 </button>
-                <a class='xem_icon'>
-                    <i class='fa-regular fa-eye'></i>
-                </a>
+
             </div>
 
 
@@ -143,9 +139,7 @@
                 <button class='button_product' onclick='addToCart(this)'>Thêm vào giỏ
                     hàng
                 </button>
-                <a class='xem_icon'>
-                    <i class='fa-regular fa-eye'></i>
-                </a>
+
             </div>
 
 
@@ -169,9 +163,6 @@
                 <button class='button_product' onclick='addToCart(this)'>Thêm vào giỏ
                     hàng
                 </button>
-                <a class='xem_icon'>
-                    <i class='fa-regular fa-eye'></i>
-                </a>
             </div>
 
             <div class='product_item'>
@@ -193,9 +184,6 @@
                 <button class='button_product' onclick='addToCart(this)'>Thêm vào giỏ
                     hàng
                 </button>
-                <a class='xem_icon'>
-                    <i class='fa-regular fa-eye'></i>
-                </a>
             </div>
 
             <div class='product_item'>
@@ -217,9 +205,6 @@
                 <button class='button_product' onclick='addToCart(this)'>Thêm vào giỏ
                     hàng
                 </button>
-                <a class='xem_icon'>
-                    <i class='fa-regular fa-eye'></i>
-                </a>
             </div>
 
             <div class='product_item'>
@@ -241,9 +226,6 @@
                 <button class='button_product' onclick='addToCart(this)'>Thêm vào giỏ
                     hàng
                 </button>
-                <a class='xem_icon'>
-                    <i class='fa-regular fa-eye'></i>
-                </a>
             </div>
         </div>
     </div>

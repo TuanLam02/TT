@@ -52,7 +52,7 @@
                 CÔNG TY CỔ PHẦN THUƠNG MẠI & DỊCH VỤ PADDY
             </li>
             <li>
-                116 Nguyễn Văn Thủ, Phường Đa Kao, Quận 1, Thành phố Hồ Chí Minh, Việt Nam
+                116 Nguyễn Văn Thủ, P. Đa Kao, Q. 1, TP Hồ Chí Minh
             </li>
             <li>
                 <i class="fa-solid fa-phone"></i> Hotline: 0347693333
