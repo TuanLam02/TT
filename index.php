@@ -1,32 +1,47 @@
 <?php include './templates/header.php';
 ?>
 <div class="banner">
-  <div>
-    <img style="width: 100%; height:95%;" src="assets/img/banner/banner1.png" alt="Hình ảnh 1">
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img_nature_wide.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img_snow_wide.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img_mountains_wide.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+
   </div>
 </div>
 <br>
 <br>
 <div class="gioithieu">
-  <div class="vanChuyen">
-    <h6>Miễn Phí Vận Chuyển</h6>
-    <p>Áp dụng cho đơn hàng từ 500K</p>
-    <p>Hoả tốc 4h trong nội thành HCM</p>
+  <div>
+    <img class="vanChuyen" src="assets/img/safe/1.png" alt="">
+    <h5>MIỄN PHÍ VẬN CHUYỂN</h6>
   </div>
-  <div class="vanChuyen">
-    <h6>Chăm sóc khách hàng 24/24</h6>
-    <p>Liên hệ qua Fanpage hoặc hotline</p>
-    <p>Giải đáp và tư vấn cho thú cưng của bạn</p>
+  <div>
+    <img class="vanChuyen" src="assets/img/safe/2.png" alt="">
+    <h5>CHĂM SÓC KHÁCH HÀNG 24/7</h6>
   </div>
-  <div class="vanChuyen">
-    <h6>Sản phẩm chính hãng</h6>
-    <p>Hoàn toàn được ủy quyền 100% từ các thương hiệu lớn</p>
-    <p>Có giấy ủy quyền</p>
+  <div>
+    <img class="vanChuyen" src="assets/img/safe/3.png" alt="">
+    <h5>SẢN PHẨM CHÍNH HÃNG</h6>
+
   </div>
-  <div class="vanChuyen">
-    <h6>Thanh Toán tiện lợi</h6>
-    <p>Có thể thanh toán COD</p>
-    <p>Có thể thanh toán qua thẻ tín dụng</p>
+  <div>
+    <img class="vanChuyen" src="assets/img/safe/4.png" alt="">
+    <h5>THANH TOÁN TIỆN LỢI</h6>
   </div>
 </div>
 <div class="MuaThucCung">
