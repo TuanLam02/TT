@@ -3,7 +3,7 @@
 <div>
   <img style="width: 100%; height: auto; margin-top:-50px" src="assets/img/banner/banner1.png" alt="Hình ảnh 1">
 </div>
-</div>
+
 <br>
 <div class="gioithieu">
   <div>
