@@ -10,7 +10,7 @@
                 Danh Cho Mèo
             </li>
             <li>
-                <a href="/pages/brand.php">Thương hiệu</a>
+                <a href="<?php echo $rootPath . "/pages/brand.php"; ?>" style="color:black">Thương hiệu</a>
             </li>
         </ul>
     </div>
@@ -82,69 +82,4 @@
             <span>Messenger</span>
         </div>
     </a>
-    <a href="javascript:void(0)">
-        <div class="mangXaHoi_item Top" onclick="window.scrollTo(0, 0)">
-            <div>
-                <i class="fa-solid fa-arrow-up" style="color: black;"></i>
-            </div>
-            <span>Top</span>
-        </div>
-    </a>
-
 </div>
-<!-- nếu đã login -->
-<div class="login_flex" id="login_flex">
-    <div class="login_flex_right" id="login_flex_right">
-        <div class="login_flex_right_title" style="margin: 10px 0 30px 0;">
-            <h6>Thông tin tài khoản</h6>
-            <div id="exit_login_flex">
-                <i class="fa-solid fa-x"></i>
-            </div>
-        </div>
-        <div style="display: flex; justify-content: center;align-items: center; border-radius: 50%;">
-
-            <img src="/assets/img/banner/Default_pfp.svg.png" alt=""
-                style="width: 100px; height: 100px; text-align: center;">
-        </div>
-        <div class="thonTinKhac">
-            <h5><span>Tên: </span>
-                <?php echo $_SESSION["taiKhoan"]["hoKhachHang"] . ' ' . $_SESSION["taiKhoan"]["tenKhachHang"] ?>
-            </h5>
-        </div>
-        <div class="thonTinKhac">
-            <h5><span>Số điện thoại: </span>
-                <?php echo $_SESSION["taiKhoan"]["dienThoai"] ?>
-            </h5>
-        </div>
-        <div class="thonTinKhac">
-            <h5><span>Địa chỉ: </span>
-                <?php
-                // SELECT xa.tenXa, huyen.tenHuyen, tinh.tenTinh FROM xa JOIN huyen ON xa.maHuyen = huyen.maHuyen JOIN tinh ON huyen.maTinh=tinh.maTinh WHERE xa.maXa = "X04036"
-                $get_diachi = "SELECT xa.tenXa, huyen.tenHuyen, tinh.tenTinh FROM xa JOIN huyen ON xa.maHuyen = huyen.maHuyen JOIN tinh ON huyen.maTinh=tinh.maTinh WHERE xa.maXa = '{$_SESSION["taiKhoan"]["maXa"]}'";
-                $statement = $dbh->prepare($get_diachi);
-                $statement->execute();
-                $diachis = $statement->fetchAll(PDO::FETCH_ASSOC);
-                foreach ($diachis as $diachi)
-                    echo $_SESSION["taiKhoan"]["diaChiCuThe"] . ', ' . $diachi['tenXa'] . ', ' . $diachi['tenHuyen'] . ', ' . $diachi['tenTinh']; ?>
-            </h5>
-        </div>
-        <div class="thonTinKhac" style="margin: 0 0 40px 0;">
-            <h5><span>Email: </span>
-                <?php echo $_SESSION["taiKhoan"]["email"] ?>
-            </h5>
-        </div>
-        <form action="<?php echo $rootPath . "/pages/edit_info.php" ?>" method="post">
-            <input hidden type="text" name="editInfo" value="1">
-            <input type="submit" value="Chỉnh sửa thông tin" class="button_add_admin" />
-        </form>
-
-        <a href="<?php echo $rootPath . "/pages/change_password.php" ?>">
-            <input type="button" value="Đổi mật khẩu" class="button_add_admin" /></a>
-        <a href="<?php echo $rootPath . "/pages/buy_history_page.php" ?>">
-            <input type="button" value="Lịch sử mua hàng" class="button_add_admin" /></a>
-        <form action="<?php echo $rootPath . "/includes/logout.php" ?>">
-            <input type="submit" value="Đăng xuất" class="button_add_admin" />
-        </form>
-    </div>
-</div>
-<script src="<?php echo $rootPath ?>/assets/js/app.js"></script>

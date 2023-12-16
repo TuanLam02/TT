@@ -25,12 +25,10 @@ echo $rootPath;
         rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <style>
-        /* Bỏ gạch chân */
         a {
             text-decoration: none;
         }
 
-        /* Chuyển màu chữ sang màu trắng */
         a:link,
         a:visited {
             color: #FFFFFF;
@@ -40,30 +38,11 @@ echo $rootPath;
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
-<script>
-    function updateCountCart() {
-        jQuery.ajax({
-            url: '<?php echo $rootPath . "/includes/update_count_cart.php"; ?>', // Đường dẫn đến tệp xử lý PHP trên máy chủ
-            type: 'POST',
-            data: { maKhachHang: '<?php echo $_SESSION["taiKhoan"]["maKhachHang"] ?>' },
-            success: function (response) {
-                var count = document.querySelector('#count_cart');
-                count.textContent = response;
-                console.log(response);
-            }
-        });
-    }
-    $(document).ready(function () {
-        updateCountCart();
-    });
-</script>
-
 <div class="app">
     <div id="notifacation_all">
         <h6>Thêm sản phẩm thành công</h6>
     </div>
     <div class="gird">
-
         <div class="header">
             <div class="header_row1">
                 <div class="header_row1_left">
@@ -86,7 +65,7 @@ echo $rootPath;
                         <h5 class="hotline_sdt" style="font-weight: 600;">0347 69 33 33</h5>
                     </div>
 
-                    <a href="pages/login.php" class="h" id="login_user">
+                    <a href="<?php echo $rootPath . "/pages/login.php"; ?>" class="h" id="login_user">
                         <div>
                             <div class="name_icon">
                                 <i class="fa-regular fa-user"></i>
@@ -97,8 +76,6 @@ echo $rootPath;
                         </div>
                     </a>
 
-
-                    <!-- giỏ hàng -->
                     <div class="h" id="cart">
                         <a href="#">
                             <div class="name_icon catalog">
