@@ -1,4 +1,3 @@
-<!--product page-->
 <?php include '../templates/header.php';
 ?>
 
@@ -80,7 +79,7 @@
                     <h5>Nutrience</h5>
                 </div>
                 <div class='product_name'>
-                    <a href='#'>
+                    <a href='../product/1.php'>
                         <h5 style='color:black;'>Hạt Chó Trên 6 Tháng ANF 6Free Hữu Cơ</h5>
                     </a>
                 </div>
@@ -103,7 +102,7 @@
                     <h5>Pedigree</h5>
                 </div>
                 <div class='product_name'>
-                    <a href='#'>
+                    <a href='../product/2.php'>
                         <h5 style='color:black;'>Hạt Cho Chó Nutrience Subzero Fraser Valley Dog</h5>
                     </a>
                 </div>
@@ -119,14 +118,33 @@
 
             </div>
 
+            <div class='product_item'>
+                <img src='../assets/img/sanpham/pate-lon-whiskas-cho-meo-truong-thanh-400g-paddy-1.png'>
+                <div class='product_thuonghieu'>
+                    <h5>ANF</h5>
+                </div>
+                <div class='product_name'>
+                    <a href='../product/4.php'>
+                        <h5 style='color:black;'>Pate Lon Whiskas Cho Mèo Trưởng Thành 400g</h5>
+                    </a>
+                </div>
+                <div class='product_price' style='display: flex'>
 
+                    <h5 style='color: red;'> 38.000đ
+                    </h5>
+                </div>
+
+                <button class='button_product' onclick='addToCart(this)'>Thêm vào giỏ
+                    hàng
+                </button>
+            </div>
             <div class='product_item'>
                 <img src='../assets/img/sanpham/pate_cho_meo_con_dang_kem_nekko_kitten_mousse_70g.png'>
                 <div class='product_thuonghieu'>
                     <h5>Whiskas</h5>
                 </div>
                 <div class='product_name'>
-                    <a href='#'>
+                    <a href='../product/3.php'>
                         <h5 style='color:black;'>Pate Cho Mèo Con Dạng Kem Nekko Kitten Mousse 70g</h5>
                     </a>
                 </div>
@@ -186,26 +204,7 @@
                 </button>
             </div>
 
-            <div class='product_item'>
-                <img src='../assets/img/sanpham/pate-lon-whiskas-cho-meo-truong-thanh-400g-paddy-1.png'>
-                <div class='product_thuonghieu'>
-                    <h5>ANF</h5>
-                </div>
-                <div class='product_name'>
-                    <a href='#'>
-                        <h5 style='color:black;'>Pate Lon Whiskas Cho Mèo Trưởng Thành 400g</h5>
-                    </a>
-                </div>
-                <div class='product_price' style='display: flex'>
 
-                    <h5 style='color: red;'> 38.000đ
-                    </h5>
-                </div>
-
-                <button class='button_product' onclick='addToCart(this)'>Thêm vào giỏ
-                    hàng
-                </button>
-            </div>
 
             <div class='product_item'>
                 <img src='../assets/img/sanpham/pate-meo-ciao-60g.png'>

@@ -81,10 +81,11 @@
 
         </div>
         <div class=" product_name">
-          <h5>Hạt Chó Trên 6 Tháng ANF 6Free Hữu Cơ</h5>
+          <a href="product/1.php">
+            <h5 style="color:black;">Hạt Chó Trên 6 Tháng ANF 6Free Hữu Cơ</h5>
+          </a>
         </div>
         <div class='product_price' style='display: flex'>
-          <h5 style='text-decoration: line-through; width: 70px'>100.000đ </h5>
           <h5 style='color: red;'> 80.000đ</h5>
         </div>
       </div>
@@ -96,7 +97,10 @@
 
         </div>
         <div class=" product_name">
-          <h5>Pate Cho Mèo Con Dạng Kem Nekko Kitten Mousse 70g</h5>
+          <a href="product/3.php">
+            <h5 style="color:black;">Pate Cho Mèo Con Dạng Kem Nekko Kitten Mousse 70g</h5>
+          </a>
+
         </div>
         <div class='product_price' style='display: flex'>
           <h5 style='text-decoration: line-through; width: 70px'>140.000đ </h5>
@@ -111,7 +115,10 @@
 
         </div>
         <div class=" product_name">
-          <h5>Pate Lon Whiskas Cho Mèo Trưởng Thành 400g</h5>
+          <a href="product/4.php">
+            <h5>Pate Lon Whiskas Cho Mèo Trưởng Thành 400g</h5>
+          </a>
+
         </div>
         <div class='product_price' style='display: flex'>
           <h5 style='text-decoration: line-through; width: 70px'>40.000đ </h5>
