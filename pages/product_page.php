@@ -168,7 +168,7 @@
                     <h5>Monge</h5>
                 </div>
                 <div class='product_name'>
-                    <a href='#'>
+                    <a href='../product/5.php'>
                         <h5 style='color:black;'>Thịt Tươi Hi Raw CAT Food Cho MÈO Ăn Sống</h5>
                     </a>
                 </div>
@@ -189,7 +189,7 @@
                     <h5>Whiskas</h5>
                 </div>
                 <div class='product_name'>
-                    <a href='#'>
+                    <a href='../product/6.php'>
                         <h5 style='color:black;'>Pate Kit Cat Sữa Dê Bổ Sung Canxi Cho Mèo (Lon 85g)</h5>
                     </a>
                 </div>
@@ -212,7 +212,7 @@
                     <h5>Monge</h5>
                 </div>
                 <div class='product_name'>
-                    <a href='#'>
+                    <a href='../product/7.php'>
                         <h5 style='color:black;'>Pate Mèo Ciao 6 Vị Thơm Ngon 60g</h5>
                     </a>
                 </div>
